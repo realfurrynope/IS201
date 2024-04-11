@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    background-color: ivory;
+}
+
+.navul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.titlenav{
+    text-align: center;
+}
+
+.navli{
+    display: inline-block;
+    padding: 5px 12px;
+    border: 2px solid darkblue;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.navli:hover {
+    background-color: darkblue;
+}
+
+.navli:hover a {
+    color: white; 
+}
+
+.nava{
+    text-decoration: none;
+    color: darkblue;
+    text-align: center;
+}
+
+.divcenter{
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+}
+
+div.tableaucenter{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
+.block {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.divcenter.block {
+    text-align: center;
+    border: 2px solid black; 
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+div.tableauPlaceholder {
+    position: relative;
+    display: inline-block;
+    width: 100%; 
+}
+
+div.tableauPlaceholder object {
+    width: 100%;
+    height: auto; 
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
